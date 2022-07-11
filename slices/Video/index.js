@@ -4,10 +4,7 @@ import { PrismicRichText } from "@prismicio/react";
 const Video = ({ slice }) => (
   <section>
     <div className="container mx-auto max-w-3xl">
-      <PrismicRichText field={slice.primary.title} />
-      <PrismicRichText field={slice.primary.subTitle} />
-      <PrismicRichText field={slice.primary.description} />
-      <div className="video-container my-12">
+      <div className="video-container">
         <div className="video-player">
           <video
             poster={slice.primary.videoThumbnail.url}
