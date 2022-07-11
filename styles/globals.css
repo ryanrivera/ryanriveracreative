@@ -5,3 +5,15 @@
 [data-collapsible="true"].bg-white + [data-collapsible="true"].bg-white {
   @apply pt-0 md:pt-0;
 }
+
+h1 {
+  @apply font-serif;
+}
+
+section {
+  @apply my-14 md:my-32;
+}
+
+.container {
+  @apply px-10;
+}

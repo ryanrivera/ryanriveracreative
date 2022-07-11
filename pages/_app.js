@@ -1,23 +1,27 @@
-import Link from 'next/link'
-import { PrismicLink, PrismicProvider } from '@prismicio/react'
-import { PrismicPreview } from '@prismicio/next'
+import Link from "next/link";
+import { PrismicLink, PrismicProvider } from "@prismicio/react";
+import { PrismicPreview } from "@prismicio/next";
 
-import { repositoryName, linkResolver } from '../prismicio'
-import { Heading } from '../components/Heading'
+import { repositoryName, linkResolver } from "../prismicio";
+import { Heading } from "../components/Heading";
 
-import '../styles/globals.css'
+import "../styles/globals.css";
 
 const NextLinkShim = ({ href, children, locale, ...props }) => {
   return (
     <Link href={href} locale={locale}>
       <a {...props}>{children}</a>
     </Link>
-  )
-}
+  );
+};
 
 const richTextComponents = {
   heading1: ({ children }) => (
-    <Heading as="h1" className="mb-7 mt-12 first:mt-0 last:mb-0">
+    <Heading
+      as="h1"
+      size="xl"
+      className="mb-7 mt-12 text-8xl first:mt-0 last:mb-0"
+    >
       {children}
     </Heading>
   ),
@@ -27,7 +31,7 @@ const richTextComponents = {
     </Heading>
   ),
   heading3: ({ children }) => (
-    <Heading as="h3" size="sm" className="mb-7 mt-12 first:mt-0 last:mb-0">
+    <Heading as="h3" size="sm" className="mb-5 mt-12 first:mt-0 last:mb-0">
       {children}
     </Heading>
   ),
@@ -36,13 +40,15 @@ const richTextComponents = {
     <ol className="mb-7 pl-4 last:mb-0 md:pl-6">{children}</ol>
   ),
   oListItem: ({ children }) => (
-    <li className="mb-1 list-decimal pl-1 last:mb-0 md:pl-2">{children}</li>
+    <li className="mb-1 mb-5 list-decimal pl-1 last:mb-0 md:pl-2">
+      {children}
+    </li>
   ),
   list: ({ children }) => (
     <ul className="mb-7 pl-4 last:mb-0 md:pl-6">{children}</ul>
   ),
   listItem: ({ children }) => (
-    <li className="mb-1 list-disc pl-1 last:mb-0 md:pl-2">{children}</li>
+    <li className="mb-2.5 list-disc pl-1 last:mb-0 md:pl-2">{children}</li>
   ),
   preformatted: ({ children }) => (
     <pre className="mb-7 rounded bg-slate-100 p-4 text-sm last:mb-0 md:p-8 md:text-lg">
@@ -60,7 +66,7 @@ const richTextComponents = {
       {children}
     </PrismicLink>
   ),
-}
+};
 
 export default function App({ Component, pageProps }) {
   return (
@@ -71,7 +77,7 @@ export default function App({ Component, pageProps }) {
     >
       <PrismicPreview repositoryName={repositoryName}>
         {/* TODO: Remove the following element once you have read the documentation. */}
-        {process.env.NODE_ENV === 'development' && (
+        {/* {process.env.NODE_ENV === 'development' && (
           <div
             style={{
               background: '#5163ba',
@@ -95,9 +101,9 @@ export default function App({ Component, pageProps }) {
               . Remove this bar in <code>pages/_app.js</code>.
             </p>
           </div>
-        )}
+        )} */}
         <Component {...pageProps} />
       </PrismicPreview>
     </PrismicProvider>
-  )
+  );
 }

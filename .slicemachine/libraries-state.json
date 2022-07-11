@@ -99,7 +99,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Hero/default/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/Hero/default/preview.png",
             "width": 800,
             "height": 694
           }
@@ -201,12 +201,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Image/default/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/Image/default/preview.png",
             "width": 800,
             "height": 530
           },
           "banner": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Image/banner/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/Image/banner/preview.png",
             "width": 800,
             "height": 363
           }
@@ -397,7 +397,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/ImageCards/default/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/ImageCards/default/preview.png",
             "width": 800,
             "height": 1167
           }
@@ -467,7 +467,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Quote/default/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/Quote/default/preview.png",
             "width": 800,
             "height": 392
           }
@@ -579,12 +579,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Text/default/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/Text/default/preview.png",
             "width": 800,
             "height": 516
           },
           "twoColumns": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/Text/twoColumns/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/Text/twoColumns/preview.png",
             "width": 800,
             "height": 276
           }
@@ -743,16 +743,145 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/TextWithImage/default/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/TextWithImage/default/preview.png",
             "width": 800,
             "height": 656
           },
           "withButton": {
-            "path": "/Users/angeloashmore/projects/prismic/nextjs-starter-prismic-multi-page/.slicemachine/assets/slices/TextWithImage/withButton/preview.png",
+            "path": "/Users/ryanrivera/Projects/ryanriveracreative/.slicemachine/assets/slices/TextWithImage/withButton/preview.png",
             "width": 800,
             "height": 424
           }
         }
+      },
+      "video": {
+        "library": "slices",
+        "id": "video",
+        "name": "Video",
+        "description": "Video",
+        "model": {
+          "id": "video",
+          "type": "SharedSlice",
+          "name": "Video",
+          "description": "Video",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Video",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "heading1"
+                  }
+                },
+                "subTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Sub Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "heading2,heading3,heading4,heading5,heading6"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "videoMP4": {
+                  "type": "Link",
+                  "config": {
+                    "label": "VideoMP4",
+                    "placeholder": "",
+                    "select": "media"
+                  }
+                },
+                "videoWEBM": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Video WEBM",
+                    "placeholder": "",
+                    "select": "media"
+                  }
+                },
+                "videoThumbnail": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Video Thumbnail",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "video",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Integrate cutting-edge eyeballs",
+                  "spans": []
+                }
+              ],
+              "subTitle": [
+                {
+                  "type": "heading2",
+                  "text": "Empower cross-media vortals",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Aute culpa et mollit aliquip adipisicing proident labore magna ad.",
+                  "spans": []
+                }
+              ],
+              "videoMP4": {
+                "link_type": "media",
+                "url": "https://source.unsplash.com/daily"
+              },
+              "videoWEBM": {
+                "link_type": "media",
+                "url": "https://source.unsplash.com/daily"
+              },
+              "videoThumbnail": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
       }
     }
   }

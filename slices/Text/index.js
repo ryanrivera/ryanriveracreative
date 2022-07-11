@@ -5,15 +5,22 @@ import { Bounded } from "../../components/Bounded";
 
 const Text = ({ slice }) => {
   return (
-    <Bounded as="section" className="bg-white leading-relaxed">
-      <div
-        className={clsx(
-          slice.variation === "twoColumns" && "md:columns-2 md:gap-6"
-        )}
-      >
+    <section>
+      <div className="container mx-auto max-w-3xl">
         <PrismicRichText field={slice.primary.text} />
       </div>
-    </Bounded>
+    </section>
+    // <Bounded as="section" className="bg-white leading-relaxed">
+    //   <div className="container mx-auto max-w-3xl">
+    //     <div
+    //       className={clsx(
+    //         slice.variation === "twoColumns" && "md:columns-2 md:gap-6"
+    //       )}
+    //     >
+    //       <PrismicRichText field={slice.primary.text} />
+    //     </div>
+    //   </div>
+    // </Bounded>
   );
 };
 
