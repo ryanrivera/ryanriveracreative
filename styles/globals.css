@@ -17,3 +17,7 @@ section {
 .container {
   @apply px-10;
 }
+
+.footer .block-img {
+  @apply w-10;
+}
