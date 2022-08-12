@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>Ryan Rivera Creative</title>
         <meta
           name="description"
           content="A multidisciplinary creative based in San Diego, California."
