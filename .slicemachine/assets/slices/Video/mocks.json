@@ -20,8 +20,15 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
-      }
+        "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Sunt id ut voluptate est voluptate duis culpa incididunt irure irure. Ut enim ullamco elit deserunt est incididunt voluptate aliquip officia qui amet elit pariatur minim.",
+          "spans": []
+        }
+      ]
     }
   }
 ]
