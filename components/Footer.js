@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
-    <section>
-      <div className="container mx-auto max-w-3xl">
+    <footer className="site-footer">
+      <div className="container mx-auto max-w-6xl pb-20">
         <ul className="socials flex gap-2.5">
           <li className="social">
             <a href="//instagram.com/riens" target="_blank" rel="noreferrer">
@@ -29,6 +29,6 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </footer>
   );
 };

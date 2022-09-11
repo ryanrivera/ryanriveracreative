@@ -30,6 +30,16 @@
       },
       "banner": {
         "primary": {}
+      },
+      "homeIntro": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     },
     "Quote": {
@@ -71,21 +81,45 @@
     },
     "ImageCards": {
       "default": {
-        "primary": {
-          "heading": {
+        "primary": {},
+        "items": {
+          "text": {
             "config": {
-              "patternType": "HEADING",
+              "patternType": "PARAGRAPH",
               "blocks": 1
             }
           }
-        },
-        "items": {}
+        }
       }
     },
     "Video": {
       "default": {
         "primary": {},
         "items": {}
+      }
+    },
+    "HomeHero": {
+      "default": {
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "PageHero": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     }
   },

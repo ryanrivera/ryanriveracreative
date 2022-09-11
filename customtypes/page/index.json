@@ -56,6 +56,12 @@
             },
             "video": {
               "type": "SharedSlice"
+            },
+            "home_hero": {
+              "type": "SharedSlice"
+            },
+            "page_hero": {
+              "type": "SharedSlice"
             }
           }
         }

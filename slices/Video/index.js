@@ -3,7 +3,7 @@ import { PrismicRichText } from "@prismicio/react";
 
 const Video = ({ slice }) => (
   <section>
-    <div className="container mx-auto max-w-3xl">
+    <div className="container mx-auto max-w-6xl">
       <div className="video-container mb-2">
         <div className="video-player">
           <video
