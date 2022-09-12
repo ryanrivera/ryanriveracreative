@@ -1,18 +1,18 @@
 {
-  "id": "290cfe97-5f7c-4346-9f20-4b06a61becf7",
-  "uid": "quod-at-reiciendis",
+  "id": "dd6e8ed4-cf37-49ae-a8d2-fc6e48591316",
+  "uid": "ducimus-voluptas-laborum",
   "type": "page",
   "data": {
     "title": [
       {
         "type": "heading1",
-        "text": "Repurpose customized solutions",
+        "text": "Grow enterprise applications",
         "spans": []
       }
     ],
     "parent": {
       "link_type": "Web",
-      "url": "http://twitter.com"
+      "url": "https://prismic.io"
     }
   }
 }
