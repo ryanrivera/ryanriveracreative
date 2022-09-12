@@ -1,17 +1,21 @@
 import React from "react";
 import { PrismicRichText } from "@prismicio/react";
-import { Link } from "next/link";
+import { useRouter } from "next/router";
 
-const PageHero = ({ slice }) => (
-  <section className="page-hero">
-    <div className="container">
-      <div className="back mb-10">
-        <Link href="/">&#8592; back</Link>
+const PageHero = ({ slice }) => {
+  const router = useRouter();
+
+  return (
+    <section className="page-hero">
+      <div className="container">
+        <div className="back mb-10">
+          <span onClick={() => router.back()}>&#8592; back</span>
+        </div>
+        <PrismicRichText field={slice.primary.title} />
+        <PrismicRichText field={slice.primary.description} />
       </div>
-      <PrismicRichText field={slice.primary.title} />
-      <PrismicRichText field={slice.primary.description} />
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default PageHero;

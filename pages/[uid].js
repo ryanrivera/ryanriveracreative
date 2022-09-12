@@ -6,9 +6,10 @@ import { createClient } from "../prismicio";
 import { components } from "../slices";
 import { Layout } from "../components/Layout";
 
-import { Link } from "next/link";
+import { useRouter } from "next/router";
 
 const Page = ({ page, navigation, settings }) => {
+  const router = useRouter();
   return (
     <Layout navigation={navigation} settings={settings}>
       <Head>
@@ -20,7 +21,7 @@ const Page = ({ page, navigation, settings }) => {
       <SliceZone slices={page.data.slices} components={components} />
       <div className="container">
         <div className="back mb-10">
-          <Link href="/">&#8592; back</Link>
+          <span onClick={() => router.back()}>&#8592; back</span>
         </div>
       </div>
     </Layout>
