@@ -6,6 +6,8 @@ import { createClient } from "../prismicio";
 import { components } from "../slices";
 import { Layout } from "../components/Layout";
 
+import { Link } from "next/link";
+
 const Page = ({ page, navigation, settings }) => {
   return (
     <Layout navigation={navigation} settings={settings}>
@@ -18,7 +20,7 @@ const Page = ({ page, navigation, settings }) => {
       <SliceZone slices={page.data.slices} components={components} />
       <div className="container">
         <div className="back mb-10">
-          <a href="/">&#8592; back</a>
+          <Link href="/">&#8592; back</Link>
         </div>
       </div>
     </Layout>
