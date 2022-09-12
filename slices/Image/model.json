@@ -19,6 +19,13 @@
             "thumbnails": []
           }
         },
+        "imageText": {
+          "type": "Text",
+          "config": {
+            "label": "Image Text",
+            "placeholder": ""
+          }
+        },
         "description": {
           "type": "StructuredText",
           "config": {

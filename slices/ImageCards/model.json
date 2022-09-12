@@ -23,6 +23,20 @@
             "thumbnails": []
           }
         },
+        "imageText": {
+          "type": "Text",
+          "config": {
+            "label": "Image Text",
+            "placeholder": ""
+          }
+        },
+        "imageClass": {
+          "type": "Text",
+          "config": {
+            "label": "Image Class",
+            "placeholder": ""
+          }
+        },
         "text": {
           "type": "StructuredText",
           "config": {

@@ -10,11 +10,12 @@ const Image = ({ slice, index }) => {
 
   return (
     <section className="image-section">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container">
         <div className="image mb-2">
           {prismicH.isFilled.image(image) && (
             <PrismicNextImage field={image} layout="responsive" />
           )}
+          <p className="my-1 text-sm">{slice.primary.imageText}</p>
         </div>
         <div className="text">
           <PrismicRichText field={slice.primary.description} />

@@ -16,6 +16,11 @@ const Page = ({ page, navigation, settings }) => {
         </title>
       </Head>
       <SliceZone slices={page.data.slices} components={components} />
+      <div className="container">
+        <div className="back mb-10">
+          <a href="/">&#8592; back</a>
+        </div>
+      </div>
     </Layout>
   );
 };

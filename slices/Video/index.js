@@ -3,7 +3,7 @@ import { PrismicRichText } from "@prismicio/react";
 
 const Video = ({ slice }) => (
   <section>
-    <div className="container mx-auto max-w-6xl">
+    <div className="container">
       <div className="video-container mb-2">
         <div className="video-player">
           <video
@@ -18,10 +18,11 @@ const Video = ({ slice }) => (
             <source src={slice.primary.videoMP4.url} type="video/mp4" />
           </video>
         </div>
+        <p className="my-1 text-sm">{slice.primary.videoText}</p>
       </div>
-      <div className="text">
+      {/* <div className="text">
         <PrismicRichText field={slice.primary.description} />
-      </div>
+      </div> */}
     </div>
   </section>
 );

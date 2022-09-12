@@ -10,8 +10,8 @@ const HomeHero = ({ slice, index }) => {
 
   return (
     <section className="home-hero">
-      <div className="container mx-auto flex max-w-6xl gap-12">
-        <div className="image mb-2 w-2/12">
+      <div className="container gap-12 md:flex">
+        <div className="image mb-2 w-5/12 lg:w-2/12">
           {prismicH.isFilled.image(image) && (
             <PrismicNextImage
               field={image}
@@ -20,7 +20,7 @@ const HomeHero = ({ slice, index }) => {
             />
           )}
         </div>
-        <div className="text w-7/12">
+        <div className="text w-11/12 md:w-7/12 lg:w-7/12">
           <PrismicRichText field={slice.primary.text} />
         </div>
       </div>

@@ -12,22 +12,27 @@ const ImageCard = ({ item }) => {
   return (
     <li className="">
       {prismicH.isFilled.image(image) && (
-        <div className="image mb-2.5 aspect-square overflow-hidden bg-gray-100">
-          <ConditionalWrap
-            condition={prismicH.isFilled.link(item.link)}
-            wrap={({ children }) => (
-              <PrismicLink field={item.link} tabIndex="-1">
-                {children}
-              </PrismicLink>
-            )}
+        <>
+          <div
+            className={`image aspect-square overflow-hidden bg-gray-100 ${item.imageClass}`}
           >
-            <img
-              src={item.image.url}
-              className="h-full w-full max-w-none object-cover transition-all hover:scale-110"
-            />
-            {/* <PrismicNextImage field={image} className="object-cover" /> */}
-          </ConditionalWrap>
-        </div>
+            <ConditionalWrap
+              condition={prismicH.isFilled.link(item.link)}
+              wrap={({ children }) => (
+                <PrismicLink field={item.link} tabIndex="-1">
+                  {children}
+                </PrismicLink>
+              )}
+            >
+              <img
+                src={item.image.url}
+                className="h-full w-full max-w-none object-cover transition-all hover:scale-110"
+              />
+              {/* <PrismicNextImage field={image} className="object-cover" /> */}
+            </ConditionalWrap>
+          </div>
+          <p className="my-1 text-sm">{item.imageText}</p>
+        </>
       )}
       <div className="text leading-relaxed">
         <PrismicRichText field={item.text} />

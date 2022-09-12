@@ -12,12 +12,14 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=null&h=null&fit=crop"
+          "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=null&h=null&fit=crop"
         },
+        "imageText": "matrix interactive convergence",
+        "imageClass": "implement collaborative markets",
         "text": [
           {
             "type": "paragraph",
-            "text": "Qui occaecat in qui commodo ex esse occaecat ea minim ullamco. Labore proident ullamco nisi aliquip elit proident et.",
+            "text": "Nulla et occaecat amet sunt ipsum laboris aliquip esse. Minim id incididunt eiusmod eu magna nulla Lorem.",
             "spans": []
           }
         ],
@@ -34,12 +36,14 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=null&h=null&fit=crop"
+          "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=null&h=null&fit=crop"
         },
+        "imageText": "extend enterprise action-items",
+        "imageClass": "whiteboard cross-platform e-tailers",
         "text": [
           {
             "type": "paragraph",
-            "text": "Et eu sit consequat culpa tempor id Lorem adipisicing elit mollit. Minim ut culpa et est minim ipsum aliquip minim ex nulla cillum quis ipsum non do. Qui anim non nostrud est enim id qui dolor do duis voluptate.",
+            "text": "Sit proident ut qui ipsum duis quis proident eu ipsum mollit et enim duis ullamco. Voluptate enim cillum dolore ad anim. Eiusmod anim labore eu ut minim exercitation esse ut laborum voluptate ex non Lorem.",
             "spans": []
           }
         ],
@@ -56,18 +60,20 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=null&h=null&fit=crop"
+          "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=null&h=null&fit=crop"
         },
+        "imageText": "whiteboard sticky experiences",
+        "imageClass": "exploit impactful partnerships",
         "text": [
           {
             "type": "paragraph",
-            "text": "Commodo Lorem anim ipsum fugiat ut id ad aliqua consequat.",
+            "text": "Deserunt est in elit. Officia esse quis nostrud amet amet laborum aliqua et mollit est enim magna pariatur commodo adipisicing. Nostrud mollit aliqua reprehenderit ullamco ad ipsum minim anim excepteur dolor et nulla aliquip fugiat est.",
             "spans": []
           }
         ],
         "link": {
           "link_type": "Web",
-          "url": "https://slicemachine.dev"
+          "url": "http://google.com"
         }
       },
       {
@@ -78,18 +84,20 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=null&h=null&fit=crop"
+          "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=null&h=null&fit=crop"
         },
+        "imageText": "optimize seamless content",
+        "imageClass": "target frictionless e-tailers",
         "text": [
           {
             "type": "paragraph",
-            "text": "Sunt dolore veniam quis exercitation aute eiusmod ea cupidatat proident et tempor consectetur deserunt. Elit exercitation magna dolore aliqua anim nulla.",
+            "text": "Enim consectetur quis commodo cupidatat ullamco cupidatat est officia elit sint ipsum occaecat. Aliqua in nostrud fugiat sit voluptate velit pariatur excepteur do. Culpa pariatur ipsum nisi cupidatat tempor occaecat.",
             "spans": []
           }
         ],
         "link": {
           "link_type": "Web",
-          "url": "http://twitter.com"
+          "url": "https://prismic.io"
         }
       }
     ],

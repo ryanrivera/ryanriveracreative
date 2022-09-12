@@ -28,6 +28,7 @@ export const Footer = () => {
             </a>
           </li>
         </ul>
+        <span className="catch-all hidden border border-solid border-gray-100"></span>
       </div>
     </footer>
   );

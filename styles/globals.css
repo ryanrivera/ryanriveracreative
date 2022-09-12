@@ -13,7 +13,10 @@ h3 {
 }
 
 h1 {
-  @apply mb-2.5 text-7xl;
+  @apply mb-2.5 text-5xl md:text-7xl;
+}
+h1 strong {
+  @apply whitespace-nowrap;
 }
 
 h2 {
@@ -28,11 +31,11 @@ h4 {
 }
 
 h5 {
-  @apply text-slate-500;
+  @apply text-gray-500;
 }
 
 h6 {
-  @apply text-slate-500;
+  @apply text-gray-500;
 }
 
 p {
@@ -44,7 +47,7 @@ section {
 }
 
 .container {
-  @apply px-10;
+  @apply mx-auto max-w-6xl px-5 md:px-10;
 }
 
 .footer .block-img {

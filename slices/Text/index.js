@@ -6,7 +6,7 @@ import { Bounded } from "../../components/Bounded";
 const Text = ({ slice }) => {
   return (
     <section className={slice.primary.className}>
-      <div className="container mx-auto flex max-w-6xl">
+      <div className="container flex">
         <div className="lg:w-8/12">
           <PrismicRichText field={slice.primary.text} />
         </div>
